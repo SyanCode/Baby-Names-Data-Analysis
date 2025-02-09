@@ -1,15 +1,15 @@
 # Analyse des Prénoms en France (2003-2004)
 
-## 📊 Description du Projet
+## 📊 Description du projet
 Ce script Python analyse les données de prénoms en France pour les années 2003 et 2004, offrant une exploration détaillée de la distribution des prénoms.
 
-## ✨ Fonctionnalités Principales
+## ✨ Fonctionnalités principales
 - 📂 Chargement et fusion des fichiers de prénoms de 2003 et 2004
 - 🔍 Identification des 10 prénoms les plus fréquents par année
 - 👧👦 Analyse des prénoms les plus fréquents par genre
 - 💾 Exportation des données traitées dans des fichiers CSV
 
-## 🛠 Prérequis Techniques
+## 🛠 Prérequis techniques
 - Python 3.7 ou supérieur
 - Bibliothèques requises :
   - pandas
@@ -23,7 +23,7 @@ Ce script Python analyse les données de prénoms en France pour les années 200
 4. Lire les fichiers générés (`Prenoms2003-2004.csv`, `Prenoms2003-2004_Jointure.csv`)
 5. Lire les top 10 prénoms pour chaque année (`Top 10 prénoms en 2003 :`, `Top 10 prénoms en 2004 :`)
 
-## 📋 Fichiers Générés
+## 📋 Fichiers générés
 - `Prenoms2003-2004.csv` : Données fusionnées des deux années
 - `Prenoms2003-2004_Jointure.csv` : Données agrégées par prénom
 - `prenoms_processing.log` : Journal détaillé des opérations
@@ -32,6 +32,7 @@ Ce script Python analyse les données de prénoms en France pour les années 200
 
 ### Qu'est-ce que le Logging ?
 Le logging est un mécanisme de suivi des événements qui se produisent pendant l'exécution d'un programme logiciel.
+Il a été utilisé ici dans ce script pour débugger les erreurs au développement.
 
 ### Niveaux de Logs
 1. `DEBUG` : Informations détaillées pour le débogage
@@ -71,7 +72,7 @@ logging.error("Impossible de charger le fichier CSV")
 - Journalisation détaillée des problèmes
 
 ## 📄 Licence
-[À compléter - par exemple MIT, Apache, etc.]
+Projet soumis à la [licence MIT](https://github.com/SyanCode/Baby-Names-Data-Analysis/blob/main/LICENSE)
 
 ## 👤 Auteur
 SYAN HILAIRE--BENAMOR (https://github.com/SyanCode)
